@@ -1,0 +1,351 @@
+body{
+  background:linear-gradient(#2A00B7, #42006C);
+/* height: 100vh; */
+}
+
+.navbar-brand{
+  color:white !important;
+  font-size: 50px !important;
+  font-style: italic !important;
+  color: aquamarine !important;
+
+
+}
+.nav-link{
+  color:white !important;
+  margin-left: 40px !important;
+  font-size: 20px !important;
+}
+.navbar-nav{
+  position: absolute !important;
+  right:10% !important;
+  size: 20px !important;
+}
+
+/* home section  */
+.getstarted{
+  background-color: rgb(240, 112, 0) !important;
+  margin-left: 90px !important;
+  margin-top: 30px !important;
+
+
+}
+.hometitle{
+  display: flex;
+  font-size: 85px;
+  font-weight: bolder;
+  margin-top: 90px;
+  color: aliceblue;
+  margin-left: 90px;
+}
+.homedescription{
+  display: flex;
+  font-size: 25px;
+  margin-left: 100px;
+  color: aliceblue;
+  margin-top: 20px;
+}
+.getstarted1{
+  background-color: rgb(0, 240, 152) !important;
+  margin-left: 40px !important;
+  
+  
+}
+/* .getstarted2{
+  background-color: rgb(0, 240, 144) !important;
+  margin-left: 10px !important;
+  
+} */
+.bw{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.bw1{
+  margin-left: 100px;
+}
+
+/* company section / */
+#company{
+  margin: 15% 5% ;
+  background-color: aliceblue ;
+  margin-left: 30px;
+  margin-top: 450px;
+}
+.logo{
+  margin-left: 150px;
+}
+.hometitle1{
+  display: flex;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 20px;
+  color: aliceblue;
+  margin-left: 90px;
+}
+.homedescription1{
+  display: flex;
+  font-size: 65px;
+  font-weight: bolder;
+  margin-top: 45px;
+  color: aliceblue;
+  margin-left: 90px;
+
+}
+/* why us section */
+#whyus{
+  margin:15% 5% ;
+  margin-top: 5px;
+}
+.homedescription2{
+  /* display: flex; */
+  font-size: 90px;
+  color: black;
+}
+.hometitle2{
+  /* display: flex; */
+  color: black;
+  font-size: 40px;
+  margin-top: 300px;
+  font-style: bold;
+}
+.whyus{
+  background-color: white;
+}
+.bot{
+  font-size: 70px;
+  font-style: italic;
+  margin-top: 150px;
+  background-color: black;
+  color: white;
+}
+.bot1{
+  font-size: 50px;
+  margin-top: 90px;
+  
+  font-stretch: expanded;
+  color:black;
+  padding-left:5%;
+  padding-bottom: 5%;
+}
+.bot2{
+  display: flex;
+  font-size: 20px;
+  color: black;
+  
+  padding-bottom: 2%;
+}
+
+/* agencies section  */
+.agenciesdetail{
+  display: inline-block !important;
+  margin:25px 15px 15px 30px;
+}
+.container3 {
+  display: flex;
+  align-items: center;
+  padding: 10px !important;
+  border: 1px solid #ddd;
+  margin:10px !important;
+}
+.container3 img {
+  max-width: 40%;
+  height: auto;
+  margin-right: 20px;
+}
+.container3 .content2 {
+  max-width: 90%;
+}
+@media (max-width: 600px) {
+  .container3 {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .container3 img {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+  .container3 .content2 {
+      max-width: 100%;
+  }
+}
+.agencydes{
+  display: flex;
+  font-size: 60px;
+  color: #ddd;
+  margin-left: 30px;
+  margin-top: 18px;
+}
+.but{
+  background-color: aqua !important;
+}
+
+/* Ageninfo */
+.agenciesdetail1{
+  display: inline-block !important;
+  margin:25px 15px 15px 30px;
+  border:5px solid #e9f029 !important;
+}
+.container4 {
+  display: flex;
+  align-items: center;
+  padding: 10px !important;
+  border: 1px solid #ddd;
+  margin:10px !important;
+  margin-left: 10px !important;
+  
+}
+.content3{
+  display: flex;
+font-size: 80px !important;
+  padding: 10px !important;
+  border: 1px solid #ddd;
+  margin-left: 15px;
+  
+  
+}
+.ageninfodis{
+  display: flex;
+  font-size: 20px;
+ color: #ddd;
+  margin-left: 30px;
+
+}
+.agendes{
+  color: #ddd;
+  margin-left: 50px !important;
+}
+.agendes1{
+  display: flex;
+  font-size: 30px;
+  color: aquamarine;
+  margin-left: 470px;
+  margin-top: 10px;
+}
+.agendes2{
+  display: flex;
+  font-size: 20px;
+  color: aliceblue ;
+  
+  margin-left: 10px;
+  color: #ddd;
+}
+.agendes3{
+  display: flex;
+  font-size: 20px;
+  color: aliceblue ;
+  margin-left: 10px;
+  
+  color: #ddd;
+}
+.agendes4{
+  display: flex;
+  font-size: 20px;
+  color: aliceblue ;
+  margin-left: 10px;
+ 
+  color: #ddd;
+}
+.agendes5{
+  display: flex;
+  font-size: 20px;
+  color: aliceblue ;
+  
+  margin-left: 10px;
+  color: #ddd;
+}
+.agendes6{
+  display: flex;
+  font-size: 25px;
+  color: aliceblue ;
+  margin-left: 40px;
+}
+.rbutton{
+  display: flex;
+  margin-left: 675px;
+  width: 150px;
+  height: 60px;
+  color: #070701;
+}
+
+/* Add Agency details */
+.boxdet{
+  display: flex;
+  /* margin-left: 600px;
+  margin-top: 50px; */
+  color: #ddd;
+  /* width: 5100px; */
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.addagencydet{
+  display: flex;
+  font-size: 60px;
+  color: #11cd2a;
+  margin-left: 400px;
+  margin-top: 18px;
+}
+.regbutton{
+  padding-left: 41%;
+  
+  padding-bottom: 80px;
+  margin-top: 30px;
+}
+.colorcard{
+  margin-top: 20px;
+  border:5px solid #15090a;
+  width: 50%;
+  height: 50%;
+margin-left: 400px;
+ border-radius: 20px;
+background-color: #11cd2a;
+  box-shadow: #070701;
+}
+.aa card{
+  
+  background-color: #e9f029;
+}
+
+/* what's new */
+.WN{
+  display: flex;
+  font-size: 60px;
+  color: #e91818;
+  margin-left: 20px;
+ 
+  
+}
+.Avatar{
+  display: flex;
+  margin-top: 27px;
+  margin-left: 20px;
+  border-radius: 20px;
+  align-items: center;
+  /* justify-content: center; */
+  box-shadow: #070701;
+}
+.avatarname{
+  display: flex;
+  margin-top: 40px;
+  margin-left: 65px;
+  font-size: 50px;
+}
+.avatarname1{
+  display: flex;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-right: 120px;
+  color: #000601;
+}
+.bu{
+  color: #11cd2a;
+  background-color: #f0294a;
+  margin-left: 60px;
+}
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
